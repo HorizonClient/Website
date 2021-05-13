@@ -16,13 +16,6 @@ body {
   right: 9px;
 }
 
-.header {
-  position: absolute;
-  top: 9px;
-  left: 9px;
-  right: 9px;
-}
-
 h1 {
   color: white;
   text-align: center;
@@ -30,4 +23,11 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0px;
+}
+
+.header {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  right: 9px;
 }
