@@ -49,3 +49,7 @@ header {
 footer, .push {
   height: 50px;
 }
+
+.disclaimer {
+  color: #5D5D5D;
+}
