@@ -26,9 +26,6 @@ h1 {
   margin-top: 0px;
 }
 
-/* header {
-  position: absolute;
-  top: 9px;
-  left: 9px;
-  right: 9px;
-} */
+header {
+  margin-bottom: 9px;
+}
