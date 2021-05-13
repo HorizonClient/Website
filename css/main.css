@@ -1,5 +1,5 @@
 html {
-  height: 99.35%;
+  /* height: 98.35%; */
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 footer {
   position: sticky;
-  margin-top: 9px;
+  margin-top: 8px;
   margin-bottom: -9px;
   margin-left: -9px;
   margin-right: -9px;
