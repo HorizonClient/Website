@@ -9,16 +9,17 @@ body {
   background-color: rgb(58,58,58);
 }
 
-
 .body {
-  height: 100%;
+  position: absolute;
+  left: 9px;
+  bottom: 9px;
+  right: 9px;
 }
 
-.main {
+.header {
   position: absolute;
   top: 9px;
   left: 9px;
-  bottom: 9px;
   right: 9px;
 }
 
