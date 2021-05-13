@@ -1,37 +1,41 @@
 html {
-  /* height: 98.35%; */
+  height: 97.35%;
 }
 
 body {
-  background-image: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #935d8c;
   font-family: 'Poppins';
-  margin: 9px;
+  margin: 0px;
   margin-bottom: 0px;
   color: #e37682;
 }
 
-.box {
-  background-color: #3A3A3A;
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #935d8c;
+  z-index: -100000;
 }
 
-.content {
+.box {
+  background-color: #3A3A3A;
   padding: 9px;
 }
 
 footer {
   position: sticky;
-  margin-top: 8px;
-  margin-bottom: -9px;
-  margin-left: -9px;
-  margin-right: -9px;
+  /* margin-top: 8px; */
+  /* margin-bottom: -9px; */
+  /* margin-left: -9px; */
+  /* margin-right: -9px; */
 }
 
-h1 {
+h1, h3 {
   color: #f2f2f2;
-  text-align: center;
   background: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -40,6 +44,7 @@ h1 {
 h3, h1, p {
   margin-top: 0px;
   margin-bottom: 0px;
+  width: max-content;
 }
 
 header {
@@ -63,10 +68,12 @@ footer, .push {
 
 .left {
   left: 9px;
+  float: left;
 }
 
 .right {
   right: 9px;
+  float: right;
 }
 
 .nav {
@@ -87,4 +94,9 @@ a:hover {
 
 .icon > a {
   color: #5D5D5D;
+}
+
+.body {
+  margin-left: 9px;
+  margin-right: 9px;
 }
