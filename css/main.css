@@ -12,7 +12,7 @@ body {
 }
 
 footer {
-  
+
 }
 
 h1 {
@@ -21,6 +21,9 @@ h1 {
   background: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h3, h1 {
   margin-top: 0px;
-  margin-bottom: 9px;
+  margin-bottom: 0px;
 }
