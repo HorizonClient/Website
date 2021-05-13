@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   font-family: 'Poppins';
   margin: 9px;
-  text-align: center;
 }
 
 .box {
@@ -12,7 +11,10 @@ body {
 }
 
 footer {
-
+  position: sticky;
+  margin-bottom: -9px;
+  margin-left: -9px;
+  margin-right: -9px;
 }
 
 h1 {
@@ -23,7 +25,11 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-h3, h1 {
+h3, h1, p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+header {
+  margin-bottom: 9px;
 }
