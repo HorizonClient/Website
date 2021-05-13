@@ -28,4 +28,5 @@ h1 {
 hr {
   background: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
   height: 4px;
+  border: none;
 }
