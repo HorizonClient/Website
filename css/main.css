@@ -16,3 +16,12 @@ body {
   bottom: 9px;
   right: 9px;
 }
+
+h1 {
+  color: white;
+  text-align: center;
+  background: -webkit-linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
