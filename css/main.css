@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   background-image: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
   background-size: 100% 8000%;
@@ -33,4 +37,14 @@ h3, h1, p {
 
 header {
   margin-bottom: 9px;
+}
+
+.main {
+  margin-bottom: -50px;
+  min-height: 100%;
+}
+
+footer,
+.push {
+  height: 50px;
 }
