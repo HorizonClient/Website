@@ -1,0 +1,18 @@
+body {
+  background-image: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
+  background-size: 100% 8000%;
+  background-repeat: no-repeat;
+  font-family: 'Poppins';
+}
+
+.box {
+  background-color: rgb(58,58,58);
+}
+
+.main {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  bottom: 9px;
+  right: 9px;
+}
