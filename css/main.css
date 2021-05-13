@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   font-family: 'Poppins';
   margin: 9px;
+  text-align: center;
 }
 
 .box {
@@ -11,10 +12,13 @@ body {
 }
 
 .body {
-  position: absolute;
   left: 9px;
   /* bottom: 9px; */
   right: 9px;
+}
+
+footer {
+
 }
 
 h1 {
