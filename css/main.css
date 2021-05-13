@@ -9,6 +9,11 @@ body {
   background-color: rgb(58,58,58);
 }
 
+
+.body {
+  height: 100%;
+}
+
 .main {
   position: absolute;
   top: 9px;
@@ -23,10 +28,5 @@ h1 {
   background: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-hr {
-  background: linear-gradient(to top right, #e37682 15%, #5f4d93 85%);
-  height: 4px;
-  border: none;
+  margin-top: 0px;
 }
